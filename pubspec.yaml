@@ -1,0 +1,102 @@
+name: mekanik
+version: 1.4.8+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.6
+  appbar_animated: 0.0.3
+  crypto: ^3.0.3
+  dio: 5.1.1
+  pull_to_refresh: ^2.0.0
+  dismissible_page: ^1.0.2
+  particles_flutter: ^0.1.4
+  launch_review: ^3.0.1
+  smartrefresh: ^0.0.2
+  http: ^1.2.1
+  fine_stepper: ^0.3.0
+  webview_flutter: ^3.0.0
+  dropdown_button2: ^2.1.2
+  package_info: ^2.0.2
+  photo_view: ^0.15.0
+  multi_image_picker: ^4.8.1
+  in_app_update: ^4.2.1
+  device_info_plus: ^8.0.0
+  app_settings: ^5.1.1
+  timezone: ^0.9.4
+  mobile_scanner: ^3.2.0
+  android_intent: ^2.0.0
+  text_scroll: ^0.2.0
+  calendar_timeline: ^1.1.2
+  dropdown_search: 5.0.6
+  cupertino_stepper: 0.2.1
+  carousel_slider: ^4.1.1
+  horizontal_week_calendar: ^0.0.10
+  go_router: ^13.0.1
+  easy_stepper: ^0.8.3
+  flutter_svg: ^2.0.9
+  lottie: ^2.7.0
+  curved_navigation_bar: ^1.0.3
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.3.0
+  firebase_messaging: ^14.9.4
+  image_picker: ^1.1.2
+  multi_image_picker_view: ^1.0.3
+  flutter_onboarding_screen: 2.0.2
+  flutter_onboarding_slider: 1.0.9
+  flutter_staggered_grid_view: 0.6.2
+  curved_labeled_navigation_bar: ^2.0.2
+  get: 4.6.5
+  flutter_image_compress: ^2.3.0
+  get_storage: ^2.1.1
+  flutter_staggered_animations: ^1.1.1
+  google_fonts: ^4.0.4
+  intl: 0.18.1
+  url_launcher: ^6.1.11
+  syncfusion_flutter_charts: ^25.1.39
+  shimmer_animation: ^2.1.0
+  search_page: ^2.3.0
+  shared_preferences: ^2.0.15
+  fl_chart: ^0.67.0
+  animated_text_kit: ^4.2.2
+  animations: ^2.0.1
+  progress_state_button: ^1.0.4
+  quickalert: ^1.1.0
+  awesome_dialog: ^3.2.0
+  bottom_picker: ^2.6.0
+  search_choices: ^2.2.7
+  animated_custom_dropdown: ^3.0.0
+  bubble_tab_indicator: ^0.1.4
+  flutter_local_notifications: ^14.0.0
+  horizontal_stepper_flutter: ^1.0.3
+  permission_handler: ^10.2.0
+  google_maps_flutter: ^2.6.1
+  geolocator: ^7.7.1
+  sliding_up_panel: ^2.0.0
+  geocoding: ^2.0.0
+  table_calendar: ^3.0.6
+  stepper_list_view: ^0.0.2
+  loading_animation_widget: ^1.2.1
+  slide_countdown: ^1.6.1
+  flutter_polyline_points: ^2.0.0
+
+dev_dependencies: 
+  flutter_lints: 3.0.2
+  flutter_test: 
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/
+    - assets/bg.png
+    - assets/bgabsen.png
+    - assets/icons/
+    - assets/logo_tech.png
+    - assets/sounds/sounds.mp3
+    - assets/sounds/sounds_booking.mp3
+
+  uses-material-design: true
+
