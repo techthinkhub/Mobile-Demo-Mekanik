@@ -63,8 +63,20 @@ class pkblistSperpart extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.start,
                         children: [
                           Text(items.namaCabang ?? '', style: const TextStyle(fontWeight: FontWeight.bold)),
-                          const Text('Nomor Lambung :'),
-                          Text(items.vinNumber ?? 'belum ada Nomor Lambung', style: const TextStyle(fontWeight: FontWeight.bold)),
+                          SizedBox(height: 10,),
+                          Container(
+                            padding: const EdgeInsets.all(10),
+                            decoration: BoxDecoration(
+                              color: Colors.orange,
+                              borderRadius: BorderRadius.circular(10),
+                            ),
+                            child: Column(children: [
+                              Text('Nomor Lambung', style: TextStyle(color: Colors.white),),
+                              Text(
+                                items.vinNumber ?? 'Nomor Lambung',
+                                style: const TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
+                              ),
+                            ],),),
                         ],
                       ),
                     ],

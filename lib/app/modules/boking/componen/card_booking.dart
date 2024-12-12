@@ -60,17 +60,35 @@ class BokingList extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.start,
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          const Text('Jenis Service'),
-                          Text(
-                            items.namaService ?? '',
-                            style: const TextStyle(fontWeight: FontWeight.bold),
+                          Container(
+                            padding: const EdgeInsets.all(10),
+                            decoration: BoxDecoration(
+                              color: Colors.greenAccent,
+                              borderRadius: BorderRadius.circular(10),
+                            ),
+                            child:
+                            Text(
+                              items.namaService ?? '',
+                              style: const TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
+                            ),
                           ),
                           SizedBox(height: 10,),
-                          const Text('Vin Number'),
-                          Text(
-                            items.vinNumber ?? 'Vin Number kosong',
-                            style: const TextStyle(fontWeight: FontWeight.bold),
+                          Container(
+                              padding: const EdgeInsets.all(10),
+                              decoration: BoxDecoration(
+                                color: Colors.orange,
+                                borderRadius: BorderRadius.circular(10),
+                              ),
+                              child: Column(children: [
+                                Text('Nomor Lambung', style: TextStyle(color: Colors.white),),
+                                Text(
+                                  items.vinNumber ?? 'Nomor Lambung kosong',
+                                  style: const TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
+                                ),
+                              ],)
+
                           ),
+
                         ],
                       ),
                       Column(
